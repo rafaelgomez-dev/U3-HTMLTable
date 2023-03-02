@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Own Table</title>
+</head>
+
+<style>
+    table {
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    .part-1 td,
+    .t2 td {
+        width: 50px;
+        height: 50px;
+        line-height: 0;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .part-1 tr td:nth-child(2) {
+        padding: 0 15px;
+    }
+
+    .part-1, .part-2 {
+        width: 200px;
+        margin: 5% auto;
+    }
+
+    .part-2 td {
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <!-- Exercise Part 1 -->
+    <div class="part-1">
+        <table>
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="C:\Users\Rafael Gomez\Desktop\r.gomez\unit-3-html-exercise\gomez-U3-HTMLTable\images\Cherry.avif"
+                            alt="Cherry">
+                    </td>
+                    <td>Cherry</td>
+                    <td>$1/Kg</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="C:\Users\Rafael Gomez\Desktop\r.gomez\unit-3-html-exercise\gomez-U3-HTMLTable\images\Orange.avif"
+                            alt="Orange">
+                    </td>
+                    <td>Orange</td>
+                    <td>$2/Kg</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="C:\Users\Rafael Gomez\Desktop\r.gomez\unit-3-html-exercise\gomez-U3-HTMLTable\images\Lemon.avif"
+                            alt="Lemon">
+                    </td>
+                    <td>Lemon</td>
+                    <td>$3/Kg</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="C:\Users\Rafael Gomez\Desktop\r.gomez\unit-3-html-exercise\gomez-U3-HTMLTable\images\Pineapple.avif"
+                            alt="Pineapple">
+                    </td>
+                    <td>Pineapple</td>
+                    <td>$4/Kg</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="C:\Users\Rafael Gomez\Desktop\r.gomez\unit-3-html-exercise\gomez-U3-HTMLTable\images\Banana.avif"
+                            alt="Banana">
+                    </td>
+                    <td>Banana</td>
+                    <td>$5/Kg</td>
+            </tbody>
+        </table>
+    </div>
+    <!-- Exercise Part 2 -->
+    <div class="part-2">
+        <table>
+            <thead>
+                <tr>
+                    <td>Quick</td>
+                    <td colspan="2">brown fox</td>
+                    <td>jumps</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">over the</td>
+                    <td>lazy</td>
+                    <td>dog</td>
+                    <td>and</td>
+                </tr>
+                <tr>
+                    <td>then</td>
+                    <td>it</td>
+                    <td>fall</td>
+                </tr>
+                <tr>
+                    <td colspan="3">prey to a hunter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+</body>
+
+</html>
